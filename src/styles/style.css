@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+body{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    height: 96px;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    border: none;
+    border-radius: 999px;
+    width: 64px;
+    height: 64px;    
+}
+
+#abrirMenuMobile{
+    width: 48px;
+    height: 26.72px;
+}
+
+#fecharMenuMobile{
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+#menu{
+    display: none;
+}
+
+img{
+    border: 1px solid #000;
+    border-radius: 999px;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+}
+
+.container{
+    padding: 24px;
+}
+
+.container-content{
+    display: flex;
+    margin: 56px 16px;
+}
+
+.image-container{
+    margin-right: 32px;
+}
+
+p{
+    font-size: 0.75rem;
+}
+
+span{
+    font-size: 0.93rem;
+    font-weight: bold;
+    color: #2D728F;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: -192px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96px;
+    color: #f7f7f0;
+    background-color: #101010;
+}
