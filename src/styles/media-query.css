@@ -1,0 +1,13 @@
+@media (min-width: 768px){
+    .container{
+        padding: 0 48px;
+    }
+
+    .container-content{
+        padding: 0 48px;
+    }
+
+    #abrirMenuMobile:hover, #fecharMenuMobile:hover{
+        cursor: pointer;
+    }
+}
