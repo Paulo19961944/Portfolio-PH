@@ -8,17 +8,19 @@
     <title>Portfólio PH</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
+    
 </head>
 <body>
     <header>
         <section class="container">
-            <img src="src/images/Programmer-2.jpg" alt="Logotipo do Portfólio" class="logo">
-            <img src="src/images/Abrir-Menu-Mobile.png" alt="Abre o Menu no Mobile" class="abrirMenuMobile">
-            <img src="src/images/Fechar-Icon.png" alt="Fecha o Menu no Mobile" class="fecharMenuMobile">
-            <nav>
+            <img src="src/images/Programmer-2.jpg" alt="Logotipo do Portfólio" id="logo">
+            <img src="src/images/Abrir-Menu-Mobile.png" alt="Abre o Menu no Mobile" id="abrirMenuMobile">
+            <img src="src/images/Fechar-Icon.png" alt="Fecha o Menu no Mobile" id="fecharMenuMobile">
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="quem-somos.htm">Quem Somos</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -26,27 +28,33 @@
         </section>
     </header>
     <main>
-        <section class="image-container container">
-            <img src="" alt="">
-        </section>
-        <section class="text-container container">
-            <p>Se preferir, pode nos chamar pelo Whatsapp, estaremos sempre disponíveis para nossos clientes, pelo número</p>
-            <a class="contatos">(11)94698-3429</a>
-        </section>
-        <section class="image-container container">
-            <img src="" alt="">
-        </section>
-        <section class="text-container container">
-            <p>Também temos vários projetos em nosso GitHub, desde Front, Back-End, Mobile, Jogos e Cyber-Security.</p>
-            <a class="contatos">Link do GitHub</a>
-        </section>
-        <section class="image-container container">
-            <img src="" alt="">
-        </section>
-        <section class="text-container container">
-            <p>Também sou Produtor de Conteúdo no Youtube, em algumas linguagens de programação</p>
-            <a class="contatos">Link do Youtube</a>
-        </section>
+        <article class="container-content">
+            <section class="image-container">
+                <img src="src/images/Paulo.jpg" alt="Foto do Paulo, o seu Desenvolvedor Web">
+            </section>
+            <section class="text-container">
+                <p>Se preferir, pode nos chamar pelo Whatsapp, estaremos sempre disponíveis para nossos clientes, pelo número</p>
+                <a href="" class="contato-portfolio">(11)94698-3429</a>
+            </section>
+        </article>
+        <article class="container-content">
+            <section class="image-container">
+                <img src="src/images/Programmer-3.jpg" alt="Foto de Código no Computador">
+            </section>
+            <section class="text-container">
+                <p>Também temos vários projetos em nosso GitHub, desde Front, Back-End, Mobile, Jogos e Cyber-Security.</p>
+                <a href="" class="contato-portfolio">Link do GitHub</a>
+            </section>
+        </article>
+        <article class="container-content">
+            <section class="image-container">
+                <img src="src/images/Server.jpg" alt="Foto de um Servidor">
+            </section>
+            <section class="text-container">
+                <p>Também sou Produtor de Conteúdo no Youtube, em algumas linguagens de programação</p>
+                <a href="" class="contato-portfolio">Link do Youtube</a>
+            </section>
+        </article>
     </main>
     <footer>
         <p class="social-media">Instagram</p>

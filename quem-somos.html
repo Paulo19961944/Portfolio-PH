@@ -8,17 +8,18 @@
     <title>Portfólio PH</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
     <header>
         <section class="container">
-            <img src="src/images/Programmer-2.jpg" alt="Logotipo do Portfólio" class="logo">
-            <img src="src/images/Abrir-Menu-Mobile.png" alt="Abre o Menu no Mobile" class="abrirMenuMobile">
-            <img src="src/images/Fechar-Icon.png" alt="Fecha o Menu no Mobile" class="fecharMenuMobile">
-            <nav>
+            <img src="src/images/Programmer-2.jpg" alt="Logotipo do Portfólio" id="logo">
+            <img src="src/images/Abrir-Menu-Mobile.png" alt="Abre o Menu no Mobile" id="abrirMenuMobile">
+            <img src="src/images/Fechar-Icon.png" alt="Fecha o Menu no Mobile" id="fecharMenuMobile">
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="quem-somos.htm">Quem Somos</a></li>
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -26,27 +27,30 @@
         </section>
     </header>
     <main>
-        <section class="image-container container">
-            <img src="" alt="">
-        </section>
-        <section class="text-container container">
-            <p>Aprendi a programar em 2019, era um período de Pandemia e com isso eu resolvi começar a programar, e descobrindo</p>
-            <span>Novas Tecnologias.</span>
-        </section>
-        <section class="image-container container">
-            <img src="" alt="">
-        </section>
-        <section class="text-container container">
-            <p>Nos especializamos na Área de Análise e Desenvolvimento de Sistemas, e o nosso foco é justamente em </p>
-            <span>Aplicação Web.</span>
-        </section>
-        <section class="image-container container">
-            <img src="" alt="">
-        </section>
-        <section class="text-container container">
-            <p>A nossa primeira formação é de Técnico em Eletroeletrônica, então conseguimos mexer com</p>
-            <span>Hardware e Software</span>
-        </section>
+        <article class="container-content">
+            <section class="image-container">
+                <img src="src/images/Programmer-4.jpg" alt="Foto do Paulo, o seu Desenvolvedor Web">
+            </section>
+            <section class="text-container">
+                <p>Aprendi a programar em 2019, era um período de Pandemia e com isso eu resolvi começar a programar, e descobrindo <span>Novas Tecnologias.</span></p>
+            </section>
+        </article>
+        <article class="container-content">
+            <section class="image-container">
+                <img src="src/images/Programmer-6.jpg" alt="Foto de Código no Computador">
+            </section>
+            <section class="text-container">
+                <p>Nos especializamos na Área de Análise e Desenvolvimento de Sistemas, e o nosso foco é justamente em<span>Aplicação Web.</span></p>
+            </section>
+        </article>
+        <article class="container-content">
+            <section class="image-container">
+                <img src="src/images/Eletronic.jpg" alt="Foto de um Servidor">
+            </section>
+            <section class="text-container">
+                <p>A nossa primeira formação é de Técnico em Eletroeletrônica, então conseguimos mexer com  <span>Hardware e Software</span></p>
+            </section>
+        </article>
     </main>
     <footer>
         <p class="social-media">Instagram</p>

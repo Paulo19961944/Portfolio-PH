@@ -75,10 +75,36 @@ p{
     font-size: 0.75rem;
 }
 
-span{
+span, .contato-portfolio{
     font-size: 0.93rem;
     font-weight: bold;
     color: #2D728F;
+}
+
+a{
+    font-size: 0.75rem;
+}
+
+.container-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.container-projects a{
+    color: #00f;
+    margin-bottom: 8px;
+}
+
+.container-projects h1, h2{
+    font-size: 1.488rem;
+    margin: 48px 0;
+}
+
+.contato-portfolio{
+    margin-top: 24px;
 }
 
 footer{
