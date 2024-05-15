@@ -68,6 +68,11 @@ header{
 }
 
 #menu ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 16px;
     border: 1px solid #f7f7f0;
     border-radius: 4px;
     color: #f7f7f0;
@@ -87,7 +92,6 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 48px;
 }
 
 img{
@@ -143,7 +147,7 @@ a{
     margin: 48px 0;
 }
 
-.contato-portfolio{
+.text-container.vamos-conversar, .text-container a.contato-portfolio{
     margin-top: 24px;
 }
 
@@ -157,4 +161,12 @@ footer{
     height: 96px;
     color: #f7f7f0;
     background-color: #101010;
+}
+
+footer p{
+    font-size: 0.65rem;
+}
+
+footer .social-media{
+    text-decoration: underline;
 }
