@@ -5,7 +5,7 @@
     font-family: "Inria Sans", sans-serif;
 }
 
-html, body{
+body{
     width: 100%;
     min-height: 100vh;
 }
@@ -119,7 +119,7 @@ p{
     font-size: 0.75rem;
 }
 
-span, .contato-portfolio{
+span, .links-social-media{
     font-size: 0.93rem;
     font-weight: bold;
     color: #2D728F;
@@ -147,8 +147,8 @@ a{
     margin: 48px 0;
 }
 
-.text-container.vamos-conversar, .text-container a.contato-portfolio{
-    margin-top: 24px;
+.vamos-conversar, .contato-portfolio{
+    margin-bottom: 16px;
 }
 
 footer{

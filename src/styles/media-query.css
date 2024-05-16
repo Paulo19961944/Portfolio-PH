@@ -17,13 +17,18 @@
         display: none;
     }
 
-    header{
+    header, footer{
+        height: 200px;
+    }
+
+    #menu{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 
-    header, footer{
-        height: 200px;
+    #menu ul{
+        display: flex;
     }
 
     #logo{
@@ -39,6 +44,11 @@
     #menu ul li a{
         border: none;
         display: inline;
+        margin-left: 24px;
+    }
+
+    #menu ul li a:hover{
+        text-decoration: underline;
     }
 
     .container{
@@ -47,6 +57,7 @@
 
     .container-content{
         padding: 0 64px;
+        margin: 96px 0;
     }
 
     .container, .container-content{
@@ -71,11 +82,15 @@
         margin-bottom: 32px;
     }
 
+    .vamos-conversar, .contato-portfolio{
+        margin-bottom: 32px;
+    }
+
     p, a, footer p{
         font-size: 1.3125rem;
     }
 
-    span,.contato-portfolio {
+    span,.links-social-media {
         font-size: 1.75rem;
     }
     
