@@ -119,7 +119,7 @@ p{
     font-size: 0.75rem;
 }
 
-span, .links-social-media{
+span, .links-social-media, .nossos-projetos{
     font-size: 0.93rem;
     font-weight: bold;
     color: #2D728F;
@@ -168,5 +168,5 @@ footer p{
 }
 
 footer .social-media{
-    text-decoration: underline;
+    color: #f7f7f0;
 }
