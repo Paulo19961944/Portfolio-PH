@@ -27,6 +27,20 @@
         justify-content: space-between;
     }
 
+    #menu.menuResponsivo{
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        position: static;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #fecharMenuMobile.fecharMenuResponsivo, 
+    #abrirMenuMobile.abrirMenuResponsivo{
+        display: none;
+    }
+
     #menu ul{
         display: flex;
     }
