@@ -12,3 +12,5 @@ Esse é o meu portfólio, por enquanto está em fase de testes e depuração, co
 [Acesse o nosso Protótipo Aqui!!!](https://www.figma.com/proto/9ApbeXjKCtFxoNcNDCEyEY/Portif%C3%B3lio?node-id=60-3&t=uzkPaCJdHJ9alpg2-1&scaling=min-zoom&page-id=60%3A2&starting-point-node-id=60%3A3)<br></br>
 [TODAS AS PÁGINAS](https://www.figma.com/design/9ApbeXjKCtFxoNcNDCEyEY/Portif%C3%B3lio?node-id=60%3A3&t=4e1GXJzCSQHo8ch5-1)
 
+# ICONE DO VECTEEZY
+[Acesse aqui o local onde foi usado o icone!](https://pt.vecteezy.com/)
