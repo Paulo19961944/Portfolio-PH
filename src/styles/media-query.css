@@ -1,114 +1,141 @@
+/*TABLETS*/
 @media (min-width: 768px){
+    /*CONTAINER DO CABEÇALHO*/
     .container{
-        padding: 0 48px;
+        padding: 0 48px; /*Espaçamento Horizontal de 48px e zera o Vertical*/
     }
 
+    /*CONTAINER DO CONTEÚDO PRINCIPAL*/
     .container-content{
-        padding: 0 16px;
+        padding: 0 16px; /*Espaçamento Horizontal de 16px e zera o Vertical*/
     }
 
+    /*BOTÕES AO PASSAR O MOUSE*/
     #abrirMenuMobile:hover, #fecharMenuMobile:hover{
-        cursor: pointer;
+        cursor: pointer; /*Mãozinha do Cursor*/
     }
 }
 
+
+/*DESKTOPS*/
 @media (min-width: 1024px) {
+    /*BOTÕES DO MENU DE ABRIR E FECHAR NO MOBILE*/
     #abrirMenuMobile, #fecharMenuMobile{
-        display: none;
+        display: none; /*Esconde o Elemento*/
     }
 
+    /*CABEÇALHO E RODAPÉ*/
     header, footer{
-        height: 200px;
+        height: 200px; /*Altura de 200px*/
     }
 
+    /*MENU DE NAVEGAÇÃO*/
     #menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: flex; /*Flexbox*/
+        flex-direction: row; /*Alinha um do lado do outro*/
+        justify-content: space-between; /*Alinha ao canto da tela*/
     }
 
+    /*CLASSE ADICIONADA AO JAVASCRIPT - RESOLVE BUGS*/
     #menu.menuResponsivo{
-        background-color: transparent;
-        width: auto;
-        height: auto;
-        position: static;
-        display: flex;
-        flex-direction: row;
+        background-color: transparent; /*Deixa o fundo transparente*/
+        width: auto; /*Largura Padrão*/
+        height: auto; /*Altura Padrão*/
+        position: static; /*Posição Padrão*/
+        display: flex; /*Flexbox*/
+        flex-direction: row; /*Alinha um do lado do outro*/
     }
 
+    /*CLASSE ADICIONADA AO JAVASCRIPT - RESOLVE BUGS*/
     #fecharMenuMobile.fecharMenuResponsivo, 
     #abrirMenuMobile.abrirMenuResponsivo{
-        display: none;
+        display: none; /*Esconde o Menu*/
     }
 
+    /*LISTAS DO MENU*/
     #menu ul{
-        display: flex;
+        display: flex; /*Aparece o Elemento*/
     }
 
+    /*LOGOTIPO*/
     #logo{
-        width: 144px;
-        height: 144px;
+        width: 144px; /*Largura de 144px*/
+        height: 144px; /*Altura de 144px*/
     }
 
+    /*MENU DE NAVEGAÇÃO*/
     #menu{
-        display: flex;
-        flex-direction: row;
+        display: flex; /*Flexbox*/
+        flex-direction: row; /*Alinha um do lado do outro*/
     }
 
+    /*LINKS DO MENU DE NAVEGAÇÃO*/
     #menu ul li a{
-        border: none;
-        display: inline;
-        margin-left: 24px;
+        border: none; /*Tira a Borda*/
+        display: inline; /*Display em Linha*/
+        margin-left: 24px; /*Largura de 24px*/
     }
 
+    /*LINKS DO MENU DE NAVEGAÇÃO AO PASSAR O MOUSE*/
     #menu ul li a:hover{
-        text-decoration: underline;
+        text-decoration: underline; /*Tira o Sublinhado*/
     }
 
+    /*CONTAINER DO CABEÇALHO*/
     .container{
-        padding: 0 96px;
+        padding: 0 96px; /*Preenchimento de 96px na Horizontal e zera a vertical*/
     }
 
+    /*CONTEÚDO DO CONTAINER PRINCIPAL*/
     .container-content{
-        padding: 0 64px;
-        margin: 96px 0;
+        padding: 0 64px; /*Preenchimento de 64px na vertical e zera na horizontal*/
+        margin: 96px 0; /*Margem Vertical de 96px e zera a Horizontal*/
     }
 
+    /*CONTAINER DO HEADER E DO CONTEÚDO PRINCIPAL*/
     .container, .container-content{
-        max-width: 1200px;
+        max-width: 1200px; /*Largura máxima de 1200px*/
     }
 
+    /*CONTAINER DE IMAGENS*/
     .image-container{
-        margin-right: 192px;
+        margin-right: 192px; /*Margem a direita de 192px*/
     }
 
+    /*TODAS AS IMAGENS*/
     img{
-        width: 216px;
-        height: 216px;
+        width: 216px; /*Largura de 216px*/
+        height: 216px; /*Altura de 216px*/
     }
 
+    /*CONTAINER DOS PROJETOS*/
     .container-projects h1, .container-projects h2{
-        font-size: 2rem;
-        margin: 96px 0;
+        font-size: 2rem; /*Tamanho da fonte de 200% do Elemento Raíz*/
+        margin: 96px 0; /*Margem de 96px na Vertical e Zera a Horizontal*/
     }
 
+    /*LINKS DOS PROJETOS*/
     .container-projects a{
-        margin-bottom: 32px;
+        margin-bottom: 32px; /*Margem Inferior de 32px*/
     }
 
+    /*TEXTOS DE CONTATO*/
     .vamos-conversar, .contato-portfolio{
-        margin-bottom: 32px;
+        margin-bottom: 32px; /*Margem Inferior de 32px*/
     }
 
+    /*TODOS OS PARÁGRAFOS E LINKS*/
     p, a, footer p{
-        font-size: 1.3125rem;
+        font-size: 1.3125rem; /*Tamanho de fonte de 131,25% da Raíz do Documento*/
     }
 
+    /*LINKS IMPORTANTES */
     span,.links-social-media, .nossos-projetos {
-        font-size: 1.75rem;
+        font-size: 1.75rem; /*Tamanho da Fonte de 175% da Raíz do Documento*/
     }
-    
+ 
+    /*RODAPÉ*/
     footer{
-        bottom: -292px;
+        bottom: -292px; /*Alinha a -292px na parte infeiror da tela*/
     }
 }

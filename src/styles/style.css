@@ -1,174 +1,197 @@
+/*ESTILO GLOBAL*/
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inria Sans", sans-serif;
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Preenchimento*/
+    box-sizing: border-box; /*Ajusta o Box Model*/
+    font-family: "Inria Sans", sans-serif; /*Fonte do Google - Inria Sans*/
 }
 
+/*CONTEÚDO DA PÁGINA*/
 body{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;
+    position: relative; /*Posição Relativa*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha ao Centro no Eixo Perpendicular*/
+    width: 100%; /*Largura de 100%*/
+    min-height: 100vh; /*Altura Mínima em toda a tela*/
 }
 
-
+/*CABEÇALHO*/
 header{
-    width: 100%;
-    background-color: #101010;
-    display: flex;
-    justify-content: center;
-    height: 96px;
+    width: 100%; /*Largura de 100%*/
+    background-color: #101010; /*Cor de Fundo - Preta*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao Centro no Eixo Principal*/
+    height: 96px; /*Altura de 96px*/
 }
 
+/*CONTAINER DO CABEÇALHO*/
 .container{
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100vw; /*Largura de 100% da Tela*/
+    display: flex; /*Flexbox*/
+    justify-content: space-between; /*Alinha um do lado da tela*/
+    align-items: center; /*Alinha ao Centro no Eixo Perpendicular*/
+    padding: 24px; /*Preenchimento de 24px*/
 }
 
+/*LOGOTIPO*/
 #logo{
-    border: none;
-    border-radius: 999px;
-    width: 64px;
-    height: 64px;    
+    border: none; /*Tira a Borda*/
+    border-radius: 999px; /*Arredonda a borda*/
+    width: 64px; /*Largura de 64px*/
+    height: 64px; /*Altura de 64px*/
 }
 
+/*BOTÕES DE ABRIR E FECHAR MENU NO MOBILE*/
 #abrirMenuMobile, #fecharMenuMobile{
-    border: none;
+    border: none; /*Tira a Borda*/
 }
 
+/*BOTÃO DE ABRIR MENU NO MOBILE*/
 #abrirMenuMobile{
-    width: 48px;
-    height: 26.72px;
+    width: 48px; /*Largura de 48px*/
+    height: 26.72px; /*Altura de 26.72px*/
 }
 
+/*ADICIONA CLASSE PELO JAVASCRIPT NO MENU ABRIR MOBILE*/
 #abrirMenuMobile.abrirMenuResponsivo{
-    display: none;
+    display: none; /*Esconde o Elemento*/
 }
 
+/*BOTÃO DE FECHAR MENU NO MOBILE*/
 #fecharMenuMobile{
-    display: none;
-    width: 24px;
-    height: 24px;
+    display: none; /*Esconde o Botão*/
+    width: 24px; /*Largura de 24px*/
+    height: 24px; /*Altura de 24px*/
 }
 
+/*ADICIONA CLASSE PELO JAVASCRIPT NO BOTÃO DE ABRIR MENU NO MOBILE*/
 #fecharMenuMobile.fecharMenuResponsivo{
-    display: flex;
-    z-index: 2;
+    display: flex; /*Aparece o elemento*/
+    z-index: 2; /*Posição 2 da camada*/
 }
 
+/*MENU DE NAVEGAÇÃO*/
 #menu{
-    display: none;
+    display: none; /*Esconde o Menu*/
 }
 
+/*LISTA DO MENU DE NAVEGAÇÃO*/
 #menu ul li{
-    list-style-type: none;
+    list-style-type: none; /*Retira as marcações*/
 }
 
+/*LINKS DO MENU*/
 #menu ul li a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin-bottom: 16px;
-    border: 1px solid #f7f7f0;
-    border-radius: 4px;
-    color: #f7f7f0;
-    width: 120px;
-    height: 40px;
+    display: flex; /*Flexbox*/
+    align-items: center; /*Alinha ao centro no Eixo Perpendicular*/
+    justify-content: center; /*Alinha ao centro no Eixo Principal*/
+    text-decoration: none; /*Tira o sublinhado*/
+    margin-bottom: 16px; /*Margem Inferior de 16px*/
+    border: 1px solid #f7f7f0; /*Borda Sólida de 1px - Branca*/
+    border-radius: 4px; /*Arredonda a Borda*/
+    color: #f7f7f0; /*Cor de Fundo - Branca*/
+    width: 120px; /*Largura de 120px*/
+    height: 40px; /*Altura de 40px*/
 }
 
+/*ADICIONA CLASSE PELO JAVASCRIPT NO MENU RESPONSIVO*/
 #menu.menuResponsivo{
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #2D728FF8;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    z-index: 1; /*Camada na posição 1*/
+    position: absolute; /*Posição Absoluta*/
+    top: 0; /*Alinha no topo*/
+    left: 0; /*Alinha a Esquerda*/
+    background-color: #2D728FF8; /*Cor de Fundo - Azul pouco transparente*/
+    width: 100vw; /*Largura de 100% da tela*/
+    height: 100vh; /*Altura de 100% da tela*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao centro no Eixo Principal*/
+    align-items: center; /*Alinha ao centro no Eixo Perpendicular*/
+    flex-direction: column; /*Alinha em Colunas*/
 }
 
+/*TODAS AS IMAGENS*/
 img{
-    border: 1px solid #000;
-    border-radius: 999px;
-    width: 96px;
-    height: 96px;
-    object-fit: cover;
+    border: 1px solid #101010; /*Borda de 1px - Preta*/
+    border-radius: 999px; /*Arredonda a Borda*/
+    width: 96px; /*Largura de 96px*/
+    height: 96px; /*Altura de 96px*/
+    object-fit: cover; /*Ajusta a foto*/
 }
 
-.container{
-    padding: 24px;
-}
-
+/*CONTAINER DO CONTEÚDO DA PÁGINA*/
 .container-content{
-    display: flex;
-    margin: 56px 16px;
+    display: flex; /*Flexbox*/
+    margin: 56px 16px; /*Margem de 56px na Vertical e de 16px na Horizontal*/
 }
 
+/*CONTAINER DA IMAGEM*/
 .image-container{
-    margin-right: 32px;
+    margin-right: 32px; /*Margem a Direita de 32px*/
 }
 
+/*TODOS OS PARÁGRAFOS*/
 p{
-    font-size: 0.75rem;
+    font-size: 0.75rem; /*Tamanho da fonte de 75% da Raíz*/
 }
 
+/*TEXTOS IMPORTANTES*/
 span, .links-social-media, .nossos-projetos{
-    font-size: 0.93rem;
-    font-weight: bold;
-    color: #2D728F;
+    font-size: 0.93rem; /*Tamanho da Fonte de 93% da Raíz do Documento*/
+    font-weight: bold; /*Fonte em Negrito*/
+    color: #2D728F; /*Cor de Fundo - Azul*/
 }
 
+/*TODOS OS LINKS*/
 a{
-    font-size: 0.75rem;
+    font-size: 0.75rem; /*Tamanho da fonte de 75% da Raíz do Elemento*/
 }
 
+/*CONTAINER DOS LINKS PROJETOS*/
 .container-projects{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 48px 0;
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    justify-content: center; /*Alinha ao Centro no Eixo Principal*/
+    align-items: center; /*Alinha ao Centro no Eixo Perpendicular*/
+    padding: 48px 0; /*Preenchimento de 48px na Vertical e zera a Horizontal*/
 }
 
+/*LINKS DO CONTAINER PROJETOS*/
 .container-projects a{
-    color: #00f;
-    margin-bottom: 8px;
+    color: #00f; /*Cor do Texto - Azul*/
+    margin-bottom: 8px; /*Margem Inferior de 8px*/
 }
 
+/*TITULOS E SUBTITULOS DOS CONTAINERS DOS PROJETOS*/
 .container-projects h1, h2{
-    font-size: 1.488rem;
-    margin: 48px 0;
+    font-size: 1.488rem; /*Tamanho da Fonte de 148,8% da Raíz do Documento*/
+    margin: 48px 0; /*Margem Vertical de 48px e zera a Horizontal*/
 }
 
+/*LINKS COM O TEXTO IMPORTANTE*/
 .vamos-conversar, .contato-portfolio{
-    margin-bottom: 16px;
+    margin-bottom: 16px; /*Margem Inferior de 16px*/
 }
 
+/*RODAPÉ*/
 footer{
-    width: 100%;
-    position: absolute;
-    bottom: -192px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 96px;
-    color: #f7f7f0;
-    background-color: #101010;
+    width: 100%; /*Largura de 100%*/
+    position: absolute; /*Posição Absoluta*/
+    bottom: -192px; /*Coloca em -192px da parte inferior da tela*/
+    display: flex; /*Flexbox*/
+    align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
+    justify-content: center; /*Alinha o Eixo Principal ao Centro*/
+    height: 96px; /*Largura de 96px*/
+    color: #f7f7f0; /*Cor do Texto - Branco*/
+    background-color: #101010; /*Cor de Fundo - Preto*/
 }
 
+/*PARÁGRAFO DO RODAPÉ*/
 footer p{
-    font-size: 0.65rem;
+    font-size: 0.65rem; /*Tamanho da Fonte de 65% da Raíz do Documento*/
 }
 
+/*LINKS DAS REDES SOCIAIS NO RODAPÉ*/
 footer .social-media{
-    color: #f7f7f0;
+    color: #f7f7f0; /*Cor do Link - Branco*/
 }
