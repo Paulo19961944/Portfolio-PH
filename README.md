@@ -1,5 +1,5 @@
 # PORTFÓLIO PH
-Esse é o meu portfólio, por enquanto está em fase de testes e depuração, com término previsto para Sábado, no dia 18/05/24
+Esse é o meu portfólio, ja está finalizado. Foi feito usando as tags semânticas do HTML e também usando o conceito de mobile first. Foi usado um menu hamburger para a responsividade no mobile. Muito bom pra um projeto, e eu realmente me diverti muito fazendo esse projeto.
 
 # LINK DO PROJETO
 [Acesse nosso Projeto Aqui!!!](https://paulo19961944.github.io/Portfolio-PH/)
